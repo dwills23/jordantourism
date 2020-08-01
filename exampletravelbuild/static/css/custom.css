@@ -1,0 +1,370 @@
+body {
+    position: absolute;
+    width: 1600px;
+}
+
+.header-custom {
+    background-color:  #FFE4C4;
+    margin: auto;
+}
+
+.container {
+    /* position: absolute; */
+    /* width: 1700px; */
+    height: 100vh;
+    padding: 0;
+    background-color: #FFE4C4;
+    
+    /* display: block; */
+}
+.top-section {
+    /* position: absolute;
+    z-index: 1; */
+    position: relative;
+    margin: auto; 
+    right: 15%; 
+    
+    background-color: #FFE4C4;
+}
+
+.top-section-image {
+    /* content:url(https://github.com/dwills23/jordantourism/tree/master/exampletravelbuild/images/aerial-view-of-buildings-1631661.jpg?raw=true); */
+    
+    object-fit: contain; 
+    width: 1700px;  
+    height: 100vh;  
+    position: absolute;
+    z-index: 1;
+    background-color: #FFE4C4;
+    
+}  
+
+img.top-section-image {
+    /* object-fit: cover;  */
+    margin: auto;
+    height: 100vh;
+    /* width: 100vh; */
+    position: relative;
+}
+
+picture img {
+    margin: auto;
+    position: relative;
+    /* right: 2%; */
+    width: 1650px;
+    height: 70vh;
+    
+}
+
+.top-welcome {
+    
+    top: 24%;
+    left: 30%; 
+    position: absolute;
+    z-index: 4; 
+    
+}
+
+.top-welcome h1 {
+    
+    color: #F0E68C;
+    font-size: 3.3em;
+    width: 1000px;
+    
+}
+
+.yes-please-btn {
+    margin: 50px 0;
+    left: 37%;
+    position: relative;
+    
+}
+
+.btn-lg {
+    width: 230px;
+    height: 75px;
+    
+}
+
+.places-visit {
+    color: #556B2F;
+    left: 25%;
+    padding: 25px 50px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    width: 500px;
+    height: 30vh;
+    background-color: khaki; 
+    
+    border-radius: 5px;
+}
+
+.places-visit-display {
+    display: block;
+
+}
+
+.edom-path-thumb {
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    width: 150px;
+    padding: 10px;
+    font-size: 0.8em;
+
+}
+
+.calligraphy-thumb {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.awareness-thumb {
+    position: absolute;
+    text-align: center;
+    left: 65%;
+    width: 150px;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+#busayra-history-heading {
+    text-align: center;
+    background-color: #FFE4C4;
+    position: relative;
+}
+
+.carousel { 
+    position: absolute;
+    z-index: 1; 
+} /* keeps this behind all content */
+.carousel .item {
+    position: fixed; 
+    width: 100%; height: 50%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.carousel .one {
+    background: url(https://github.com/dwills23/jordantourism/tree/master/exampletravelbuild/images/aerial-view-of-buildings-1631661.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .two {
+    background: url(assets/img/slide2blur.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .three {
+    background: url(assets/img/slide1blur.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+
+.place {
+    
+    left: 56%;
+}
+
+.navbar {
+    background-color:#FAEBD7;
+
+}
+
+.middle-section {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: #FFE4C4;
+    width: 1650px;
+    
+}
+
+.default-history {
+    padding: 50px 200px;
+}
+
+#busayra-history-heading {
+    
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 95%;
+    left: 30%;
+    width: 1000px;
+    text-align: center;
+}
+
+.product-div {
+    position: relative;
+    background-color: #FFE4C4;
+    width: 1650px;
+}
+
+#browse-products-heading {
+    position: relative;
+    padding: 20px;
+    left: 30%;
+}
+
+#products-description {
+    padding: 20px 200px; 
+    object-fit: contain;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .container {
+        /* position: absolute; */
+        width: 1700px;
+        height: 100vh;
+        padding: 0;
+        /* display: block; */
+    }
+    .top-section {
+        /* position: absolute;
+        z-index: 1; */
+        position: relative;
+        right: 15%;
+        
+        background-color: #FFE4C4;
+    }
+
+    picture img {
+        margin: auto;
+        position: relative;
+        right: 2%;
+        width: 640px;
+        height: 70vh;
+       
+    }
+
+
+    .top-welcome {
+    
+        top: 25%;
+        left: 11%;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .top-welcome h1 {
+        color: #F0E68C;
+        font-size: 1.3em;
+        width: 550px;
+    }
+
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+
+    .container {
+        /* position: absolute; */
+        width: 1700px;
+        height: 100vh;
+        padding: 0;
+        /* display: block; */
+    }
+    .top-section {
+        /* position: absolute;
+        z-index: 1; */
+        position: relative;
+        right: 15%;
+        
+        background-color: #FFE4C4;
+    }
+
+    picture img {
+        margin: auto;
+        position: relative;
+        right: 2%;
+        width: 1200px;
+        height: 70vh;
+       
+    }
+
+    .top-welcome {
+    
+        top: 25%;
+        left: 30%;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .middle-section {
+        position: relative;
+        z-index: 0;
+        background-color: #FFE4C4;
+        width: 1650px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1800px){
+
+    .container {
+        /* position: absolute; */
+        width: 1700px;
+        height: 100vh;
+        padding: 0;
+        /* display: block; */
+    }
+    .top-section {
+        /* position: absolute;
+        z-index: 1; */
+        position: relative;
+        right: 15%;
+        
+        background-color: #FFE4C4;
+    }
+
+    picture img {
+        margin: auto;
+        position: relative;
+        right: 2%;
+        width: 2000vh;
+        height: 70vh;
+       
+    }
+
+    .top-welcome {
+    
+        top: 22%;
+        left: 30%;
+        position: absolute;
+        z-index: 4;
+    }
+    
+    .top-welcome h1 {
+        color: #F0E68C;
+        font-size: 3.6em;
+        width: 2000px;
+    }
+
+
+    .middle-section {
+        position: relative;
+        z-index: 0;
+        background-color: #FFE4C4;
+        width: 1650px;
+        height: 100vh;
+    }
+
+}
