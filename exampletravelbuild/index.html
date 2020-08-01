@@ -4,22 +4,51 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Home | Travel template</title>
-        <meta name="description" content="Page-specific description">
+        <title>Home | SCHEP </title>
+
         <meta name="keywords" content="Page-specific keywords">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
         <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+
+        <!-- Google Fonts -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@800&display=swap" rel="stylesheet">
+
+        <!-- Style Sheets -->
         <link rel="stylesheet" href="static/css/screen.min.css">
-        <link rel="stylesheet" href="static/css/custom.min.css">
+        <link rel="stylesheet" href="static/css/custom.css">
+
+
+        <meta name="description"
+         content="This website is the new Local Green Convenience Near Me website.">
+
+        <!-- Latest compiled and minified CSS. [Crucial Part I left out!] -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous">
+
+        <!-- Including Bootstrap in this program-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+        crossorigin="anonymous"></script>
+
+        <!-- Personal Style Sheet-->
+        <link rel="stylesheet" href="css/primary-styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <!-- $Page header-->
-        <header class="page-header">
-            <div class="page-header__inner">
-                <h1 class="page-header__logo">Jordan<span>Tourism</span></h1>
+        <header class="page-header header-custom">
+            <div class="page-header__inner navbar">
+                <h1 class="page-header__logo">SCHEP<span>Tourism</span></h1>
                 <!-- $Page navigation-->
                 <nav class="page-nav">
                     <a class="page-nav__link" href="#">Home</a>
@@ -30,83 +59,192 @@
             </div>
         </header>
         <!-- $Page content-->
-        <div class="page-content">
-            <main class="page-content__main">
+        <!-- <div class="page-content">
+            <main class="page-content__main"> -->
                 <!-- $Promo-->
-                <section class="promo">
-                    <div class="promo__inner">
-                        <h1 class="promo__title">Would You Like to Tour Jordan?
+                <!-- <section id="top-section" class="promo"> -->
+                <section class="top-section container">
+
+                    
+                        <div>
+                            <picture class="top-section-image "> 
+                                <!-- <img src="C:/Users/admin/Desktop/exampletravelbuild/static/images/bg/aerial-view-of-buildings-1631661.jpg"
+                                alt="iphone-mockup" > -->
+                                <img src="/images/aerial-view-of-buildings-1631661.jpg" >
+                                <source media="(min-width:650px)" 
+                                srcset="https://github.com/dwills23/jordantourism/tree/master/exampletravelbuild/images/aerial-view-of-buildings-1631661.jpg?raw=true">
+                                    
+                            </picture>
+                            <div class="top-welcome">
+                                <!-- Specify the pixel width to display the entire line -->
+                                <h1>WOULD YOU LIKE TO TOUR BUSAYRA?</h1>
+                                <div>
+                                    <button type="button" class="btn btn-primary btn-lg btn-success yes-please-btn"><span 
+                                        style="font-size: 1.5em; font-weight: bold;
+                                        font-family: 'Recursive', sans-serif;">Yes Please!</span></button>
+                                </div>
+
+                                <div class="places-visit">
+                                    
+                                    <div class="places-visit-display ">
+                                        <h5>Places and Activities</h5>
+
+                                        <div class="edom-path-thumb ">
+                                            
+                                            <a  href="default.asp">
+                                                
+                                                <h9>Edom Path</h9>
+                                                <div>
+                                                    <img src="C:/Users/admin/Desktop/exampletravelbuild/static/images/bg/pexels-abdullah-ghatasheh-1631665.jpg" 
+                                                    alt="HTML tutorial" style="width: 100px;">
+                                                </div>
+                                            </a> 
+
+                                        </div>
+                                        
+                                        <div class="calligraphy-thumb ">
+                                            
+                                            <a href="default.asp">
+                                                
+                                                <h9>Calligraphy</h9>
+                                                <div>
+                                                    <img src="C:/Users/admin/Desktop/exampletravelbuild/static/images/bg/ashkan-forouzani-sfmsMZ7ezXw-unsplash.jpg" 
+                                                    alt="HTML tutorial" style="width: 100px;">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="awareness-thumb">
+
+                                            <a href="default.asp"> 
+                                                <h9>Awareness</h9>
+                                                <div>
+                                                
+                                                    <img src="C:/Users/admin/Desktop/exampletravelbuild/static/images/bg/pexels-mona-termos-3074209.jpg" 
+                                                    alt="HTML tutorial" style="width: 100px; height: 70px">
+                                                
+                                                </div> 
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    
+                    <!-- <div id="myCarousel" data-ride="carousel"
+                    data-interval="8000" class="carousel container slide" >
+                        <ol>
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             
-                        </h1>
-                        <a class="promo__button" href="#">Yes Please!</a>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            
+                            <div class="active item one">
+                                
+                            </div>
+                            
+                        </div> -->
+                        <!-- <div id="top-section-image" class="container-fluid"> -->
+                        
+                            
+                                
+                            
+                        
                     </div>
+
+                    <h1 id="busayra-history-heading">The History of Busayra</h1>
+                    
                 </section>
                 <!-- $Info-->
-                <section class="info">
-                    <div class="info__places">
-                        <!-- $Places-->
-                        <div class="places place">
-                            <h2 class="places__title">Places You Must Visit</h2>
-                            <a class="places__link" href="#">
-                                <span class="places__loc places__loc_1">
+                <section class="middle-section">
+                    <div class="default-history">
 
-                                </span>
-                                Aqaba
-                            </a>
-                                
-                            <a class="places__link" href="#">
-                                    <span class="places__loc places__loc_2">
-                                    </span>
-                                    Busayra
-                                
-                            </a>
-                                <a class="places__link" href="#">
-                                    <span class="places__loc places__loc_3">
-
-                                    </span>
-                                    Safi
-                                </a>
-                                
                         
+                            
+                        <h4>
+                            Scholars widely consider Busayra to be the capital city of ancient Edom, 
+                            a kingdom that emerged in southwest Jordan during the early first millennium BCE. 
+                            Edomites rose to prominence alongside other Levantine powers, such as the Moabites 
+                            and Israelites. Despite the kingdom and its neighbors falling under the sway of 
+                            successive empires – the Assyrians, Babylonians, and Achaemenid Persians – Busayra 
+                            continued to prosper and maintained economic links with Arabia, the Levant, and Egypt. 
+                            British archaeologist Crystal Bennett excavated at Busayra between 1971 and 1980, 
+                            discovering a monumental building and a substantial fortification system associated with 
+                            the Kingdom’s administration. Some of the most impressive of these features include a 
+                            1,500-square meter palace and a temple larger than 2,320 square meters.
+                            <span><p style="font-size: 0.8em;">-example taken from 2016 USAID SCHEP http://usaidschep.org/contents/Busayra.aspx</p></span>
+                        </h4>
+                    </div class="product-div">
+
+                        <h1 id="browse-products-heading">Browse Authentic Local Products!</h1>
+
+                        <h4 id="products-description">
+                            Awareness programs: <br>
+                            1. Clay Formation <br>
+                            Pottery formation program by visitors using 
+                            clay in order to increase awareness of the mechanism of clay 
+                            formation in ancient times and progress
+                            <br>
+                            2. Pottery Restoration<br>
+                            The pottery reshaping program and this activity aim to increase 
+                            awareness of preserving the scattered pottery that is abundant in the site.
+                            <br>
+                            3. Mosaic Making <br>
+                            Making and reshaping mosaic paintings in order to introduce everything related 
+                            to mosaic art, which works to increase awareness of how to make and make mosaic 
+                            panels in ancient times, especially in Jordan.
+                            <br>
+                            Training center: <br>
+                            1. Arabic calligraphy <br>
+                            The Foundation is interested in a special product for the region, which is the 
+                            Arabic calligraphy, as it is considered one of the main things in the Basira Brigade.
+                            This activity includes: <br>
+                            • Writing on paper from the cardboard to learn on the line <br>
+                            • The most important products to be written on (A4 size wooden piece, large cup + bowl <br>
+                            + pottery + handmade and stamped paper) <br>
+                            • The instructor wrote writing that was used in the past <br>
+                            • The instructor uses reeds to make a writing pen <br>
+                            <br>
+                            Tourist experiences: <br>
+                            1. Edom Path <br>
+                            Busayra is considered one of the most important tourist sites because it contains many 
+                            elements of tourism, including environmental tourism, and it can be used as a tourist 
+                            through tourist paths that link the environmental sites with each other and make their 
+                            own tours because of these sites aroused by the tourist enjoyment of the scenic 
+                            landscapes and adventure tourism.  This path is one of the easy paths (3 hours)
+                            A map will be arranged showing the names of the sites where the visit will take place, 
+                            the break times, and a small profile for each site, in addition to determining it with 
+                            a GPS device to indicate the details of the path electronically.
+
+                        </h4>
+                    <div>
+
+                    </div>
+                </section> 
                                 
-                            </div>
+            <!-- </main>
                             
-                        </div>
+                        
+        </div> -->
                             
-                        <div class="info__inner">
-                                <h3 class="info__content">Our tourism site is back on after a prolonged hiatus.
-                                    <br>Come experience a new life journey.
-                                </h3>
-                                <div class="info__services">
-                                    <!-- $Services-->
-                                    <div class="services">
-                                        
-                                        <a class="services__link" href="#">
-                                                <span class="services__logo services__logo_shopping">
+        <!-- $Page footer-->
+                            
+        <footer class="page-footer">
+                                
 
-                                                </span>Shopping</a>
-                                                <a class="services__link" href="#">
-                                                    <span class="services__logo services__logo_photography">
-
-                                                    </span>Photography
-                                                </a>
-                                                <a class="services__link" href="#">
-                                                        <span class="services__logo services__logo_find-best">
-
-                                                        </span>Find the most exciting places
-                                                    
-                                                </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </main>
-                            </div>
-                            <!-- $Page footer-->
-                            <footer class="page-footer">
-                                <div class="page-footer__inner">
-                                    <p class="page-footer__text">Designed by cssauthor.com</p>
-                                </div>
-                            </footer>
-                        </body>
-                        </html>
+            <div class="page-footer__inner">
+                                    
+                <p class="page-footer__text">Designed by cssauthor.com</p>
+                                
+            </div>
+                            
+        </footer>
+                        
+    </body>
+                        
+    </html>
